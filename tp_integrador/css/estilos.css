@@ -1,0 +1,37 @@
+.hero {
+  min-height: 50vh;
+  max-height: 80vh;
+
+  filter: brightness(0.5);
+}
+
+.btn {
+  box-shadow: 0 9px 1px 2px rgba(29, 29, 29, 0.249);
+}
+footer {
+  background-color: #1b3848;
+  color: white;
+}
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conviertete {
+    max-width: 50vw;
+    margin: auto;
+  }
+  .pas-flex {
+    display: flex;
+  }
+  .pas-flex img {
+    max-width: 50vw;
+  }
+  .card-group {
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
